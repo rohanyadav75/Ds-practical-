@@ -1,6 +1,6 @@
 class ArrayQueue:
     """FIFO queue implementation using a Python list as underlying storage."""
-    DEFAULT_CAPACITY = 10          # moderate capacity for all new queues
+    DEFAULT_CAPACITY = 15         
 
     def __init__(self):
         """Create an empty queue."""
@@ -103,4 +103,4 @@ print(f"First Element: {queue._data[queue._front]}, Last Element: {queue._data[q
 queue.dequeueEnd()
 print(f"First Element: {queue._data[queue._front]}, Last Element: {queue._data[queue._back]}")
 queue.enqueueEnd(6)
-print(f"First Element: {queue._data[
+print(f"First Element: {queue._data[queue._front]}, Last Element :{queue. _data[queue._back]}")
